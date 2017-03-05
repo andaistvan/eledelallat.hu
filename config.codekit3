@@ -1794,8 +1794,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/assets\/framework\/css\/main.css",
-		"oF": 0,
+		"oAP": "\/assets\/css\/main.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
@@ -2839,12 +2839,6 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
-		},
-	"\/config.rb": {
-		"ft": 131072,
-		"oA": 0,
-		"oAP": "\/config.rb",
-		"oF": 0
 		},
 	"\/layouts\/default.htm": {
 		"ft": 8192,
