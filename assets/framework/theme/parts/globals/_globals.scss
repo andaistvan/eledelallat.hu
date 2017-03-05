@@ -1,0 +1,44 @@
+//Colors
+$aw-blue: #46add7;
+$aw-darkgray: #37474f;
+$aw-lightgray: #78909c;
+$aw-textgray: #686868;
+$aw-lightergray: #eceff1;
+
+// General
+html {
+    font-family: 'Roboto Slab', sans-serif;
+  }
+
+a {
+  color: $aw-blue;
+  transition: color 0.25s ease;
+  &:hover,
+  &:focus {
+    color: inherit;
+  }
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+}
+
+.lt-title{
+   color: $aw-textgray;
+}
+
+@media(max-width: 400px){
+   h2.lt-title{
+      font-size: 2rem;
+   }
+
+}
+
+p {
+  margin: 0 0 1.5rem 0;
+}
+
+.container{
+   width: 86%;
+   margin: 0 auto;
+}

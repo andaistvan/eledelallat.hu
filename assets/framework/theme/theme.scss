@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+// Globals
+@import "parts/globals/globals";
+@import "parts/globals/header";
+@import "parts/globals/footer";
+@import "parts/globals/navigation";
+@import "parts/globals/maintenance";
+
+// Pages
+@import "parts/pages/home";
+@import "parts/pages/sample-teszt";

@@ -1,0 +1,14 @@
+name: 'eledelallat'
+description: 'eledlelallat.hu - octoberCMS theme'
+author: 'Anda István'
+homepage: 'http://arteriaweb.hu'
+code: 'octobercms-eledelallat-framework'
+# [...]
+
+require:
+   RainLab.Builder
+   RainLab.Blog
+   Indikator.Plugins
+   Bedard.Debugbar
+   Indikator.Backend
+   Indikator.DevTools

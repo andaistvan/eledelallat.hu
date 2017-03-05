@@ -1,0 +1,39 @@
+.lt-navbar i.right{
+   margin-left: 0px;
+}
+
+ul#services-submenu.dropdown-content.active{
+   li{
+      a{
+         color: $aw-textgray;
+         &:hover{
+            color: $aw-blue;
+         }
+      }
+   }
+}
+ul#services-submenu.dropdown-content{
+   li:active{
+      a{
+         // color: $aw-blue;
+      }
+   }
+}
+
+ul#services-mobil.dropdown-content,
+ul#services-mobil.dropdown-content.active{
+   background: $aw-lightergray;
+   li{
+      a{
+         color: $aw-textgray;
+         &:hover{
+            color: $aw-blue;
+         }
+      }
+   }
+   li.active{
+      a{
+         color: $aw-blue;
+      }
+   }
+}

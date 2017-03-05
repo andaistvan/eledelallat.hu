@@ -1,0 +1,23 @@
+// MAINTEANCE PAGE
+section#maintenance.valign-wrapper{
+   width: 100%;
+   min-height: 100vh;
+   // background-image: url('../images/maintenance/maintenance-bg.jpg');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   img{
+      max-width: 100%;
+   }
+   img.logo{
+      margin: 30px auto;
+      display: table;
+   }
+   ul.social-maintenance{
+      text-align: center;
+      li{
+         display: inline-block;
+         margin: 0 10px;
+      }
+   }
+}
